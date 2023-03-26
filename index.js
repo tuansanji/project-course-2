@@ -220,7 +220,7 @@ app.use("/users", (req, res) => {
   }
 });
 
-app.use("/game", (req, res) => {
+app.use("/games", (req, res) => {
   try {
     res.status(200).send([
       {
